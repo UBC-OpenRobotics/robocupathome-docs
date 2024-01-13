@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Robocup@Home Project'
 copyright = '2023, UBC Open Robotics'
 author = 'Andrew Xie'
 

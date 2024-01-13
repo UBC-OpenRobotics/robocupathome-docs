@@ -22,6 +22,7 @@ The most recent rulebook for the competition can be found `here <https://github.
 .. note::
 
    This project is under active development.
+   
 
 Contents
 --------
