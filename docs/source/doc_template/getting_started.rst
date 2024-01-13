@@ -10,7 +10,9 @@ This page should answer basic questions such as
 2. What are the arguements that can be passed to the launch files? 
 3. What environment variables does launching require?
 
-A block diagram of the system would be helpful here
+A block diagram of the system would be helpful here. 
+
+If you have any machine learning models you used. include locations of the model files here as well.
 
 .. _launch-files:
 
