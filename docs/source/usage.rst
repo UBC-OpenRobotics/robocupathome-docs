@@ -1,34 +1,48 @@
 Usage
 =====
 
+This documentation is generated and hosted using readthedocs.org. The source code is hosted on github.
+For more information, see readthedocs documentation: https://docs.readthedocs.io/en/stable/index.html
+
+This documentation is written in reStructuredText. We recommend using the following cheatsheet to get started: 
+
+* https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
+* https://sphinx-tutorial.readthedocs.io/cheatsheet/  
+
 .. _installation:
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To install sphinx, readthedocs, etc, use pip to install the neccessary python dependencie:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ cd /path/to/this/project
+   $ cd docs
+   $ pip install -r requirements.txt
 
-Creating recipes
-----------------
+Building and Viewing the Documentation
+--------------------------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To build the documentation, use the following command:
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: console
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+   $ make html
 
-.. autoexception:: lumache.InvalidKindError
+If you are developing in windows:
 
-For example:
+.. code-block:: powershell
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   C:\path\to\this\project\docs> .\make.bat html
 
+then you can view the built html for the project in the ``\build`` directory 
+(these can be viewed using any web browser).
+
+Examples
+--------
+
+For examples how to document your code, see the following:
+
+toc
