@@ -31,3 +31,4 @@ Contents
 
    usage
    api
+   grasping_model_v1
